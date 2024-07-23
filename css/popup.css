@@ -1,0 +1,462 @@
+.bodyClass {
+  /*  height: 200px;
+  width: 500px;*/
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 225px;
+  width: 200px;
+}
+
+.settingsDiv {
+  position: absolute;
+  top: 360px;
+  right: 10px;
+}
+
+.imageDiv {
+  width: 100%;
+  align-items: column;
+}
+.meassage{
+ margin:10px 0 10px 0;
+}
+.radioStyle{
+  font-size: 12px;
+  gap: 10px;
+}
+
+.imageClass {
+  width: 70px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.columnContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.infoDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.dynamicDivOne {
+  margin-top: -35px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dynamicDivTwo {
+  margin-top: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoDivHeader {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.welcomeParagraph {
+  font-size: 13px;
+}
+
+.formClass {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.can-i-sell-inner-full {
+  background-color: #fff !important;
+
+}
+
+.formDiv {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-size: 11px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formDivAlternative {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  font-size: 11px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.formInput {
+  width: 300px;
+  margin-top: 4px;
+}
+
+.formInputTwo {
+  width: 150px;
+  margin-left: auto;
+}
+
+.getAuth {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.resetButton {
+  position: absolute;
+}
+
+.authCodeDiv {
+  position: absolute;
+  top: 50px;
+  font-weight: bold;
+  font-size: 11px;
+  width: 87.56px;
+  /*this value is hard coded from button above*/
+  text-align: center;
+}
+
+.selDateDiv {
+  position: absolute;
+  top: 77px;
+  font-size: 11px;
+  width: 128px;
+  text-align: center;
+}
+
+.processOrderButton {
+  margin-top: 10px;
+}
+
+.defaultCheckbox {
+  margin-top: 15px;
+}
+
+.testingDiv {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  color: red;
+  width: 87.56px;
+  /*this value is hard coded from button above*/
+  text-align: center;
+}
+
+.customHidden {
+  display: none;
+}
+
+.notOnAmazonAlert {
+  margin-top: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.notOnAmazonHref {
+  color: white;
+  font-weight: bold;
+}
+
+.notOnAmazonHref:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.buttonsDiv {}
+
+.swal2-content {
+  margin-top: 25px !important;
+}
+
+.seldate {
+  font-size: 12px;
+}
+
+#advancedlnk {
+  color: gray;
+}
+
+#relnoteslnk {
+  color: gray;
+}
+
+.table-buttons {
+  width: 100%;
+  font-size: 14px;
+}
+
+.table-buttons .first-col {
+  width: 157px
+}
+
+.table-buttons .second-col {
+  width: 110px
+}
+
+.table-buttons .support p {
+  margin-bottom: 0px;
+}
+
+.table-buttons td {
+  padding: 5px;
+}
+
+.btn-custom-style {
+  padding: 13px;
+  border-radius: 20px;
+}
+
+.w-px-100 {
+  width: 100px;
+}
+
+.custom-btn-gray {
+
+  background: #999;
+  border-color: #555;
+  cursor: not-allowed;
+}
+
+.custom-btn-process {
+  display: none;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.disable-advancedlnk {
+  pointer-events: none;
+  color: white;
+}
+
+.custom-btn-gray.disabled,
+.custom-btn-gray:disabled {
+  background: yellow;
+  border-color: #555;
+  color: black;
+  font-weight: bold;
+  cursor: not-allowed;
+}
+
+.DownTriangleIcon {
+  height: 20px;
+  width: 25px;
+  min-height: 20px;
+  min-width: 25px;
+  overflow: hidden;
+  margin: -3px;
+  padding: 4px;
+}
+
+.DownTriangleIcon path:nth-child(1) {
+  fill: unset;
+  stroke: #6d6e6f;
+  transition: unset;
+  stroke-width: unset;
+}
+
+svg path:nth-child(1) {
+  fill: #fff;
+  stroke: #6d6e6f;
+  transition: 200ms fill, 200ms stroke;
+  stroke-width: 2px;
+}
+
+svg path:nth-child(2) {
+  fill: #6d6e6f;
+  transition: 200ms fill, 200ms stroke;
+  stroke-width: 2px;
+}
+
+.isDone path:nth-child(1) {
+  fill: #58a182;
+  stroke: #58a182;
+  transition: 200ms fill, 200ms stroke;
+  stroke-width: 2px;
+}
+
+.isDone path:nth-child(2) {
+  fill: #fff;
+  transition: 200ms fill, 200ms stroke;
+  stroke-width: 2px;
+}
+
+svg {
+  height: 21px;
+  width: 21px;
+  min-height: 21px;
+  min-width: 21px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.table-bordered {
+  border: 1px solid transparent
+}
+
+.table-bordered th {
+  border-bottom: 1px solid black;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid black;
+}
+
+.table-bordered td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-bordered td:last-child {
+  border-bottom: 1px solid black;
+}
+
+.proirty {
+  border-radius: 10px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 8px;
+  width: 100%;
+}
+
+.proirty p {
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.proirty-red {
+  background: #f06a6a;
+}
+
+.proirty-yellow {
+  background: #f8df72;
+}
+
+.proirty-green {
+  background: #83c9a9;
+}
+
+.proirty-grey {
+  background: grey;
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+.dueDate-red {
+  color: #c92f54;
+}
+
+.dueDate-grey {
+  color: #afabac;
+}
+
+.dueDate-green {
+  color: #0d7f56;
+}
+
+.dueDate-black {
+  color: #1e1f21;
+}
+
+:root {
+  --success: green
+}
+
+.complete-status-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.complete-status-icon.completed {
+  background-color: var(--success);
+  color: #fff;
+}
+
+
+.spinner {
+  position: fixed;
+  background-color: white;
+  top: 40%;
+  left: 40%;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+body.loading {
+  overflow: hidden;
+}
+
+.spinner.loading,
+.spinner-overlay.loading {
+  display: block;
+}
+
+.spinner:not(.loading),
+.spinner-overlay:not(.loading) {
+  display: none;
+}

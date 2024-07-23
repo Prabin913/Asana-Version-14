@@ -1,0 +1,59 @@
+{
+    "manifest_version": 3,
+    "name": "EasyBookPrep - Client Tools - v3 Ext",
+    "version": "1.0",
+    "icons": {
+        "128": "assets/asana.png",
+        "48": "assets/asana.png",
+        "16": "assets/asana.png"
+    },
+    "permissions": [
+        "downloads",
+        "storage",
+        "identity",
+        "identity.email",
+        "tabs",
+        "activeTab",
+        "scripting",
+        "cookies",
+        "alarms",
+        "notifications",
+        "background"
+    ],
+
+    "host_permissions": [
+        "https://app.asana.com/*"
+    ],
+
+    "web_accessible_resources": [{
+        "resources": [
+            "assets/*.png",
+            "asana.html"
+        ],
+        "matches": ["https://app.asana.com/*"],
+        "extension_ids": []
+    }],
+
+    "content_scripts": [{
+        "css": ["css/customFrontendCSS.css",
+            "css/inventory.css"
+        ],
+        "matches": ["https://app.asana.com/*"
+        ],
+        "js": [
+            "content.js",
+            "jquery-3.4.1.min.js"
+        ],
+        "run_at": "document_end"
+    }],
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "action": {
+        "default_icon": "assets/asana.png",
+        "default_popup": "popup.html",
+        "default_title": "Asana"
+    }
+}

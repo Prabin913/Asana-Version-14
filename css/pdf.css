@@ -1,0 +1,68 @@
+/* .SpreadsheetRow-stickyCellPlaceholder {
+    min-width: 300px !important;
+    width: 300px !important;
+}
+
+.SpreadsheetRow-stickyCell {
+    min-width: 300px !important;
+    width: 300px !important;
+} */
+
+
+
+
+/* .tableCustome > :first-child {
+    flex: 0 0 460px;
+}
+
+.tableCustome > :nth-child(2){
+    flex: 0 0 130px; 
+}
+.tableCustome > :nth-child(3) {
+    flex: 0 0 120px; 
+}
+
+.tableCustome > :nth-child(4),
+.tableCustome > :nth-child(5) {
+    flex: 0 0 110px; 
+} */
+
+.AssigneeWithNameDisplayButton-avatar {
+    display: none !important;
+}
+
+.SpreadsheetPlaceholderCell.SpreadsheetTaskRow-addFieldPlaceholder {
+    display: none;
+}
+
+.MiniIcon--small.MiniIcon.CustomPropertyEnumValueInput-downIcon.ArrowDownMiniIcon {
+    display: none;
+}
+
+.ContextMenuTarget-contextMenuEventListener.SpreadsheetTaskRow-FieldCellTaskContextMenuTarget {
+    width: 200px !important;
+}
+
+.ProjectSpreadsheetAddTaskAndAggregationRow--canAddTask {
+    display: none !important;
+}
+
+.DragHandle.DraggableSpreadsheetTaskRow-dragHandle {
+    display: none !important;
+}
+
+.SpreadsheetGridTaskNameAndDetailsCellGroup-detailsButtonClickArea {
+    display: none !important;
+}
+
+.SpreadsheetCell--withoutLeftBorder.SpreadsheetCell.SpreadsheetGridTaskNameAndDetailsCellGroup.SpreadsheetTaskRow-nameOrDetailsCell {
+    justify-content: start !important;
+}
+
+.SortableList-itemContainer.SortableList-itemContainer--column {
+    height: fit-content;
+}
+
+main {
+    height: fit-content !important;
+}
